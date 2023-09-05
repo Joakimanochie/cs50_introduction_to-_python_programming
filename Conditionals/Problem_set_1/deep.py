@@ -1,4 +1,4 @@
-answer = str(input("What is the Answer to the Great Question of Life, the Universe and Everything? "))
+answer = str(input("What is the Answer to the Great Question of Life, the Universe and Everything? ")).strip().title()
 
 if answer == "42":
     print("Yes")
